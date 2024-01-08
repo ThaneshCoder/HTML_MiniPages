@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+body{
+    margin:0;
+    padding: 0;
+    background-image: url(./Images/backskull.jpg);
+    opacity: 0.97;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    height: 8vh;
+    width: 100%;
+    list-style: none;
+}
+ul:hover{
+    background-color: rgb(226, 35, 35);
+    /* transition:0.7s cubic-bezier(0.4, 0, 0, 1)  0s; */
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    box-shadow: 3px 3px rgb(235, 155, 8);
+} 
+#sear{
+    background-color: transparent;
+    /* background-color: red; */
+    opacity: 0.99;
+    color: rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 110%;
+    align-items: center;
+    margin-top: 1px;
+}
+#sear:hover{
+    border: 2px solid black;
+}
+#inse{
+    height: 24px;
+    width: 200px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+}
+#inse:hover{
+    border: 2px solid black;
+    background-color: rgb(255, 128, 128);
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    color: white;
+    padding: 7px;
+}
+#logo{
+    height: 8vh;
+    width: 7%;
+    position: relative;
+    left: -40px;
+}
+#login{
+    height: 64vh;
+    width: 20%;
+    background-color: rgb(49, 45, 45);
+    opacity: 0.9;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+    justify-items: center;
+    top: 60px;
+    left: 1000px;
+}
+#login:hover{
+    background-color: rgb(24, 14, 175)
+}
+
+#log{
+    padding: 10px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    font-size: 140%;
+    border-radius: 10px;
+}
+#in{
+    position: relative;
+    margin-top: 14%;
+}
+#pass{
+    position: relative;
+    margin-top: 14%;
+}
+#logi{
+    padding: 10px;
+    width: 70%;
+    background-color: rgb(219, 32, 32);
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    font-size: 120%;
+    border-radius: 7px;
+    margin-top: 14%;
+
+}
+#logi:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#do{
+    position: relative;
+    margin-top: 7%;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+}
+#si{
+    position: relative;
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+}
+#ot{
+    position: relative;
+    margin-top: 4%;
+    font-size: 110%;
+    color: rgb(255, 255, 255);
+}
+i{
+    position: relative;
+    margin-top: 4%;
+    padding: 12px;
+}
+i:hover{
+    color: rgb(255, 0, 0);
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+div input{
+    background: transparent;
+    border: none;
+    font-size: 130%;
+    border-bottom: 4px solid rgb(5, 5, 5);
+}
+
+li:hover{
+    background-color: aqua;
+    transition:all 1s ease 0s;
+    color: black;
+    border-radius: 7px;
+    box-shadow: 7px 7px rgb(4, 4, 102);
+}
+div ol{
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    width: 100%;
+    list-style: none;
+}
+footer{
+    font-size: larger;
+    position: absolute;
+    bottom: 9px;
+    left: 10px;
+
+}
+#bod{
+    width: 60%;
+    height: 40vh;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 240%;
+    padding: 20px;
+
+}
+#join{
+    padding: 4px;
+    width: 14%;
+    background-color: rgb(219, 32, 32);
+    color: rgb(255, 255, 255);
+    justify-items: center;
+    font-size: 60%;
+    border-radius: 7px;
+    margin-top: 4%;
+
+}
+#join:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
