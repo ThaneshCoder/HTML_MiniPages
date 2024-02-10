@@ -1,0 +1,36 @@
+#main{
+    width: 90%;
+    margin: auto;
+}
+
+.common{
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link{
+    color: white ;
+    font-size: 1.6vw ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 25px   ;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: rgb(109, 109, 109);
+    margin-left: 5px; 
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.carousel-indicators{
+    height: 5vh;
+    background-color: white;
+    margin: 0px 20px 0px 85%;
+}
+
+
+
