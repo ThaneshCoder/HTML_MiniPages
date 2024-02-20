@@ -1,0 +1,45 @@
+.commonBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outerBorder{
+    border: 1px solid rgb(20, 20, 20);
+    z-index: 1;
+    height: 45vh; 
+    border-radius: 30px;
+    
+}
+.outerLayer{
+    height: 50vh; 
+    margin-top: 20px; 
+    border-radius: 40px;
+    position: relative;
+    box-shadow: 2px 2px 19px black;
+}
+
+.BoardingPassLeft{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius:50px ;
+    border-bottom-right-radius:100px ;
+    width: 700px; 
+    height: 70px;
+    background-color: rgb(255, 32, 2);
+    color:white;
+    font-size: 35px;
+    
+}
+.BoardingPassRight{
+    position: absolute;
+    top: 0px;
+    Right: 0px;
+    width: 200px; 
+    height: 70px;
+    border-bottom-left-radius: 60px;
+    border-top-right-radius: 40px;
+    background-color: rgb(255, 32, 2);
+    color:white
+    
+}
