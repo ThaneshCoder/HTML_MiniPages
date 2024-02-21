@@ -1,0 +1,11 @@
+.common{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+    color: rgb(32, 88, 88)
+}
+.nav-link{
+    color: rgb(3, 255, 179);
+    font-weight: 600;
+}
